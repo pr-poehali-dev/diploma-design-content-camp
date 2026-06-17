@@ -80,17 +80,10 @@ const Index = () => {
               <span className="uppercase tracking-[0.25em] text-[9px] text-neutral-400">Дата</span>
             </div>
 
-            <div className="relative flex flex-col items-center justify-center">
-              <div className="w-24 h-24 rounded-full border-2 border-burgundy/70 flex items-center justify-center">
-                <div className="w-[84px] h-[84px] rounded-full border border-burgundy/40 flex flex-col items-center justify-center text-burgundy">
-                  <Icon name="Award" size={26} />
-                  <span className="uppercase tracking-[0.15em] text-[7px] mt-1 font-medium leading-tight text-center">Official<br/>Seal</span>
-                </div>
-              </div>
-            </div>
+            <div />
 
             <div className="flex flex-col items-center gap-1">
-              <span className="font-display italic text-2xl text-black border-b border-black/30 px-8 pb-1">C. Camp</span>
+              <span className="font-display italic text-2xl text-black border-b border-black/30 px-8 pb-1">Мустафина Д.М.</span>
               <span className="uppercase tracking-[0.25em] text-[9px] text-neutral-400">Подпись</span>
             </div>
           </div>
