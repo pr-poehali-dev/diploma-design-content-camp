@@ -1,20 +1,11 @@
-import { useState } from 'react';
 import Icon from '@/components/ui/icon';
 
 const PHOTO = 'https://cdn.poehali.dev/projects/53569e48-f073-4e1b-8ba6-322109743eeb/bucket/2606a50e-22f1-4af5-ba28-b498cdb9692b.JPG';
 
 const Index = () => {
-  const [name, setName] = useState('Анна Иванова');
-
   return (
     <div className="min-h-screen bg-neutral-200 flex flex-col items-center gap-8 py-10 px-4 font-sans">
       <div className="no-print flex flex-col items-center gap-4 w-full max-w-[210mm]">
-        <input
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Имя участницы"
-          className="w-full text-center text-xl font-display tracking-wide bg-white border border-neutral-300 rounded-md px-4 py-3 outline-none focus:border-burgundy transition-colors"
-        />
         <button
           onClick={() => window.print()}
           className="group inline-flex items-center gap-2 bg-burgundy hover:bg-burgundy-dark text-white px-8 py-3 rounded-md uppercase tracking-[0.2em] text-sm font-medium transition-colors"
@@ -65,10 +56,8 @@ const Index = () => {
 
           <div className="flex flex-col items-center gap-3 w-full">
             <p className="text-neutral-500 font-display text-xl italic">настоящим подтверждается, что</p>
-            <h2 className="font-display font-semibold text-black text-6xl leading-tight px-4">
-              {name || '—'}
-            </h2>
-            <span className="h-px w-3/4 bg-black/20 mt-1" />
+            <span className="w-3/4 border-b-2 border-black/25 mt-2 mb-1" style={{ minHeight: '56px' }} />
+            <span className="uppercase tracking-[0.25em] text-[9px] text-neutral-400 -mt-1">Имя и Фамилия</span>
             <p className="text-neutral-500 font-display text-lg italic max-w-md leading-snug mt-2">
               успешно завершила полный курс интенсива и получила звания и навыки продаж через контент
             </p>
