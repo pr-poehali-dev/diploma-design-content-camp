@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Icon from '@/components/ui/icon';
 
-const PHOTO = 'https://cdn.poehali.dev/projects/53569e48-f073-4e1b-8ba6-322109743eeb/files/17695806-8585-4c59-8f7b-0d7e6db60f08.jpg';
+const PHOTO = 'https://cdn.poehali.dev/projects/53569e48-f073-4e1b-8ba6-322109743eeb/bucket/2606a50e-22f1-4af5-ba28-b498cdb9692b.JPG';
 
 const Index = () => {
   const [name, setName] = useState('Анна Иванова');
