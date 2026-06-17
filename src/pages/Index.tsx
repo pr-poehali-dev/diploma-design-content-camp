@@ -70,8 +70,7 @@ const Index = () => {
             </h2>
             <span className="h-px w-3/4 bg-black/20 mt-1" />
             <p className="text-neutral-500 font-display text-lg italic max-w-md leading-snug mt-2">
-              успешно завершила полный курс интенсива и получила звание
-              профессионального контент-мейкера
+              успешно завершила полный курс интенсива и получила звания и навыки продаж через контент
             </p>
           </div>
 
