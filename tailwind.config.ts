@@ -19,7 +19,16 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Cormorant', 'serif'],
+				sans: ['Oswald', 'sans-serif']
+			},
 			colors: {
+				burgundy: {
+					DEFAULT: '#6E1423',
+					dark: '#4A0E18',
+					light: '#8C1C30'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
