@@ -59,7 +59,7 @@ const Index = () => {
             <span className="w-3/4 border-b-2 border-black/25 mt-2 mb-1" style={{ minHeight: '56px' }} />
             <span className="uppercase tracking-[0.25em] text-[9px] text-neutral-400 -mt-1">Имя и Фамилия</span>
             <p className="text-neutral-500 font-display text-lg italic max-w-md leading-snug mt-2">
-              успешно завершила полный курс интенсива и получила звания и навыки продаж через контент
+              успешно завершила полный курс интенсива и получила знания и навыки продаж через контент
             </p>
           </div>
 
